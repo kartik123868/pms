@@ -1,0 +1,138 @@
+/* ===== Body & Layout ===== */
+body {
+    margin: 0;
+    background-color: #471396; /* Deep Purple */
+    font-family: Arial, sans-serif;
+    color: white;
+    min-height: 100vh;
+}
+
+/* ===== Top Yellow Bar ===== */
+.top-bar {
+    background-color: #FFCC00;
+    color: black;
+    padding: 20px 30px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* ===== Back Button ===== */
+.logout-btn {
+    background-color: white;
+    color: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+}
+
+.logout-btn:hover {
+    background-color: red;
+    color: white;
+    transform: scale(1.08);
+}
+
+/* ===== Container ===== */
+.container {
+    background-color: white;
+    color: black;
+    padding: 25px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== Section Titles ===== */
+h2, h3 {
+    color: #471396;
+    margin-top: 0;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* ===== Forms and Inputs ===== */
+form {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form select {
+    padding: 8px;
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button,
+form input[type="submit"] {
+    background-color: #471396;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+form button:hover,
+form input[type="submit"]:hover {
+    background-color: #340f6c;
+    transform: scale(1.05);
+}
+
+/* ===== Lists ===== */
+ul {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+/* ===== Remove Links ===== */
+a.remove-link {
+    color: red;
+    text-decoration: none;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+a.remove-link:hover {
+    text-decoration: underline;
+}
+
+/* ===== Progress Bar ===== */
+.progress-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 20px;
+    background: linear-gradient(90deg, green);
+    text-align: center;
+    color: white;
+    line-height: 20px;
+    width: 0%;
+    transition: width 0.5s ease;
+}

@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #471396;
+  color: white;
+}
+
+.top-bar {
+  background-color: #FFCC00;
+  color: black;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+}
+
+.logout-btn,
+.back-btn {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover,
+.back-btn:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.1);
+}
+
+.main-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-box,
+.add-user-form {
+  background-color: #5e2ea5;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.project-box input,
+.add-user-form input,
+.add-user-form select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+
+.project-box button,
+.add-user-form button {
+  background-color: white;
+  color: black;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.project-box button:hover,
+.add-user-form button:hover {
+  background-color: green;
+  color: white;
+  transform: scale(1.05);
+}
+
+.user-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-width: 600px;
+  width: 90%;
+}
+
+.user-list li {
+  background-color: #6e3dbf;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-list a {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.user-list a:hover {
+  text-decoration: underline;
+}

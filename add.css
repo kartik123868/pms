@@ -1,0 +1,100 @@
+/* Reset and body styling */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #471396;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.header {
+  background-color: #FFCC00;
+  color: black;
+  padding: 20px 30px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .title {
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Buttons style */
+.one {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+#back:hover {
+  background-color: green;
+  color: white;
+  transform: scale(1.1);
+}
+
+#logout:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Form container */
+.form-container {
+  background-color: white;
+  padding: 30px;
+  width: 400px;
+  margin: 80px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+form input,
+form select {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Submit button */
+.submit-btn {
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #471396;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: green;
+  transform: scale(1.05);
+}

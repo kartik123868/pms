@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  background-color: #471396;
+  font-family: Arial, sans-serif;
+  color: white;
+  min-height: 100vh;
+}
+
+/* Top bar */
+.top-bar {
+  background-color: #FFCC00;
+  color: black;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-title {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* Logout button */
+.logout-btn {
+  background-color: white;
+  color: black;
+  padding: 10px 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* Content */
+.content {
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  background-color: white;
+  color: black;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+table th {
+  background-color: #f9d3ff;
+}
+
+/* No project message */
+.no-projects {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+}

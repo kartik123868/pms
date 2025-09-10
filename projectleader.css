@@ -1,0 +1,164 @@
+/* ===== Global Styles ===== */
+body {
+  margin: 0;
+  background-color: #471396; /* Deep Purple */
+  font-family: Arial, sans-serif;
+  color: white;
+  min-height: 100vh;
+}
+
+/* ===== Top Yellow Bar ===== */
+.top-bar {
+  background-color: #FFCC00;
+  color: black;
+  padding: 20px 30px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* ===== Logout Button ===== */
+.logout-btn {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.1);
+}
+
+/* ===== Form & Table ===== */
+form, table {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+form {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+form input[type="text"],
+form input[type="date"],
+form select {
+  padding: 8px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"],
+form button {
+  background-color: #471396;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+form input[type="submit"]:hover,
+form button:hover {
+  background-color: #340f6c;
+  transform: scale(1.05);
+}
+
+/* ===== Table Styling ===== */
+table {
+  background-color: white;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+  color: black;
+}
+
+table th {
+  background-color: #f3d7ff;
+}
+
+ul {
+  padding-left: 20px;
+  color: black;
+}
+
+/* Glowing Progress Bar */
+progress {
+    width: 100px;
+    height: 18px;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ddd;
+    box-shadow: 0 0 5px #ccc inset;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    border-radius: 10px;
+    box-shadow: 0 0 8px #00c6ff;
+    transition: width 0.4s ease-in-out;
+}
+
+progress::-moz-progress-bar {
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    border-radius: 10px;
+    box-shadow: 0 0 8px #00c6ff;
+    transition: width 0.4s ease-in-out;
+}
+
+.project-section {
+    margin-bottom: 40px;
+    border-bottom: 2px dashed #ccc;
+    padding-bottom: 30px;
+}
+
+.view-link {
+  background-color: #471396;
+  color: white;
+  padding: 6px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.view-link:hover {
+  background-color: #340f6c;
+  color: white;
+}
+
+
+

@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #471396;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #FFCC00; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.top-bar .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-buttons .button {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-buttons .button:hover {
+    background-color: green;
+    transform: scale(1.05);
+}
+
+.employee-form {
+    max-width: 90%;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.form-row label {
+    flex: 1;
+    min-width: 150px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-row input[type="text"],
+.form-row input[type="date"],
+.form-row select,
+.form-row textarea {
+    flex: 2;
+    padding: 8px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.submit-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-button input[type="submit"] {
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color:#FFCC00 ;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button input[type="submit"]:hover {
+    background-color: #388E3C;
+}

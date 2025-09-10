@@ -1,0 +1,2 @@
+open cmd and run = cd C:\xampp\htdocs\Pms
+then = composer require dompdf/dompdf
